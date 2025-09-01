@@ -40,28 +40,9 @@
     <input type="submit" name="boton" value="Convertir" >
     </form>
 
-    <style>
 
-.set {
-    margin-left: 53px;
-    margin-top: 30px
-}
-
-.met {
-
-}
-
-h3 {
- display: inline;
-
-
-
-}
-
-.select1 {
-
-}
-
-    </style>
 </body>
 </html>
+
+</html>
+
