@@ -58,6 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         return $resultado;
     }
 
+    echo '<!DOCTYPE html><html><head><link rel="stylesheet" href="style.css"></head><body>';
+
     if ($numero === '') {
         echo "<h1>Ingrese un número válido</h1>";
     } else {
@@ -65,8 +67,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $resultado = desdeDecimal($numeroDecimal, $baseSalida);
         echo "<h1>Resultado: $resultado</h1>";
     }
+
+    echo '<a href="index.php"><button>Volver</button></a>';
+    echo '</body></html>';
 }
 
-  echo '<a href="index.php"><button>Volver</button></a>'
-
 ?>
+
